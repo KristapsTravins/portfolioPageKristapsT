@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+.header_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_main .header_inner {
+  height: 29px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_main .header_inner .menu_section {
+  height: 24px;
+  width: 316px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header_main .header_inner .menu_section nav {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header_main .header_inner .menu_section nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  width: 100%;
+}
+
+.header_main .header_inner .menu_section nav ul li {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  font-size: 5vw;
+  font-weight: 200;
+  margin: 10px 0 0 0;
+}
+
+.header_main .header_inner .menu_section nav ul svg {
+  margin: 6px 0 0 0;
+  color: white;
+  height: 5vw;
+  width: 5vw;
+  max-width: 24px;
+  max-height: 24px;
+  display: none;
+}
+
+@media only screen and (min-width: 400px) {
+  .header_main {
+    height: 120px;
+  }
+  .header_main .header_inner {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .header_main .header_inner .menu_section nav ul {
+    width: auto;
+    margin: 0 10px 0 0;
+  }
+  .header_main .header_inner .menu_section nav ul li {
+    font-size: 18px;
+    margin: 0 0px 0 29px;
+  }
+  .header_main .header_inner .menu_section nav ul svg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=header.css.map */
