@@ -1,11 +1,11 @@
 @import './mixins.scss';
 
 .App{
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
-    background:#201F1F;
+    
     .center_wrapp{
         height: auto;
         width: 100%;
@@ -13,3 +13,4 @@
         min-width: 200px;
     }
 }
+

@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
 .title_outer {
   width: 100%;
-  margin: 20% 0 0 0;
-  height: 100px;
+  margin: 20% 0 10% 0;
 }
 
 .title_outer .title_inner {
@@ -46,6 +45,7 @@
       -ms-grid-row-align: center;
       align-self: center;
   text-align: justify;
+  padding: 0 5px 0 5px;
 }
 
 .title_outer .title_inner .description_box p {
@@ -69,6 +69,7 @@
 }
 
 .title_outer .title_inner .soc_buttons .button {
+  border-radius: 3px;
   margin: 2px;
   width: 150px;
   height: 100%;
@@ -87,8 +88,8 @@
 }
 
 .title_outer .title_inner .soc_buttons .button div {
-  width: 97%;
-  height: 90%;
+  width: 98%;
+  height: 92%;
   background-color: #201F1F;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,7 +108,16 @@
   font-size: 3.5vw;
 }
 
+.title_outer .title_inner .soc_buttons .button div svg {
+  color: white;
+  margin: 0 10px 0 0;
+  width: 18px;
+}
+
 @media only screen and (min-width: 660px) {
+  .title_outer {
+    height: auto;
+  }
   .title_outer .title_inner h1 {
     font-size: 16px;
   }
@@ -127,7 +137,7 @@
     font-size: 17px;
   }
   .title_outer .title_inner .soc_buttons {
-    margin: 100px 0 0 0;
+    margin: 150px 0 0 0;
     width: 100%;
     height: 55px;
     -webkit-box-pack: start;
@@ -140,6 +150,9 @@
   }
   .title_outer .title_inner .soc_buttons .button div p {
     font-size: 16px;
+  }
+  .title_outer .title_inner .soc_buttons .button div svg {
+    width: auto;
   }
 }
 /*# sourceMappingURL=title.css.map */

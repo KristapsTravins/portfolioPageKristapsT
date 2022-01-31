@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import Projects from './components/Projects';
 import Title from './components/Title';
 import './css/main.css';
 
@@ -8,6 +9,7 @@ function App() {
       <div className='center_wrapp'>
         <Header />
         <Title  />
+        <Projects />
       </div>
     </div>
   );
