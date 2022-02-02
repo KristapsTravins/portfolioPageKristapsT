@@ -1,0 +1,81 @@
+@import './mixins.scss';
+
+.blog_section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h5{
+        @include text_style;
+        font-size: 18px;
+        font-weight: 200;
+        margin: 10px 0 25px 6px;
+    }
+    .article{
+        background: $title-background-col;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+     
+        width: 98%;
+
+        margin: 0 0 20px 6px;
+        div{
+            background: $base-col;
+            height: 100%;
+            line-height: 27px;
+            width: 99%;
+            margin: -1px 0 0px 11px;
+            display: flex;
+            flex-direction: column;
+            padding: 0 0 0 8px;
+            h4{
+                @include text_style;
+                color: white;
+                font-size: 1em;
+                margin: 8px 0 6px 6px;
+            }
+            h5{
+                @include text_style;
+                font-weight: 500;
+                font-size: 29px;
+                margin: 0 0 0 6px;
+            }
+            p{
+                line-height: 18px;
+                @include text_style;
+                margin: 10px 0 0 6px;
+            }
+            .article_link{
+                width: 150px;
+                background: $title-background-col;
+                height: 50px;
+                margin: 15px 0 0 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .inner_art_link{
+                    width: 156px;
+                    padding: 0;
+                    margin: 0 8px 0 0;
+                    line-height: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 48px;
+                    p{
+                        display: flex;
+                        align-items: center;
+                        margin: 0 0 0 0;
+                        svg{
+                            margin: 0 10px 0 0;
+                        }
+                    }
+
+               }
+            }
+        }
+    }
+}
