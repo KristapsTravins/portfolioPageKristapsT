@@ -8,6 +8,7 @@ function BlogSection() {
         <h5>LATEST ARTICLES </h5>
         <Blogpost />
         <Blogpost />
+        <Blogpost />
     </div>
   );
 }

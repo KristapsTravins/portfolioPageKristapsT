@@ -41,7 +41,8 @@
         }
         .tech_list{
             p{
-                @include header_style;  
+                @include header_style;
+                color: #38ef7d;  
                 margin: 0 0 20px 0;
             }
         }

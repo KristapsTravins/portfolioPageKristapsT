@@ -20,12 +20,10 @@
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 200;
-  margin: 10px 0 25px 6px;
+  margin: 30px 0 25px 6px;
 }
 
 .blog_section .article {
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,6 +36,7 @@
   height: auto;
   width: 98%;
   margin: 0 0 20px 6px;
+  border-left: 5px solid #38ef7d;
 }
 
 .blog_section .article div {
@@ -125,5 +124,11 @@
 
 .blog_section .article div .article_link .inner_art_link p svg {
   margin: 0 10px 0 0;
+}
+
+@media only screen and (min-width: 944px) {
+  .blog_section {
+    border-top: 1px solid white;
+  }
 }
 /*# sourceMappingURL=blogsect.css.map */
