@@ -36,42 +36,10 @@ margin: 20% 0 10% 0;
         }
 
      }
-    .soc_buttons{
-        margin: 50px 0 0 0;
-        align-self: center;
-        display: flex;
-        justify-content: space-between;
-        width: 92%;
-        height: 40px;
-       .button{
-           border-radius: 3px;
-           margin: 2px;
-           width: 150px;
-           height: 100%;
-           background:$title-background-col;
-           cursor: pointer;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-            div{
-                width: 98%;
-                height: 92%;
-                background-color:$base-col;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                p{
-                    @include text_style;
-                    font-size: 3.5vw;
-                }
-                svg{
-                    color:white;
-                    margin: 0 10px 0 0;
-                    width: 18px;
-                }
-            }
-       }
-    }
+
+     
+
+
     }
 }
 @media only screen and (min-width: 660px) {
@@ -100,18 +68,11 @@ margin: 20% 0 10% 0;
                 width: 100%;
                 height: 55px;
                 justify-content: flex-start;
-                .button{
-                    margin: 0 10px 0 0;
-                    width: 200px;
-                    div{
-                       p{
-                           font-size: 16px;
-                       }
-                       svg{
-                           width: auto;
-                       } 
-                    }
+                flex-direction: row;
+                .soc_btn{
+                    width: 150px;
                 }
+                
             }
         }
         }
