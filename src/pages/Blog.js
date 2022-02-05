@@ -11,9 +11,7 @@ const Blog = ()=> {
                <Blogpost />
                <Blogpost />
                <Blogpost />
-               <Blogpost />
-               <Blogpost />
-               <Blogpost />
+               
            </div>
         </div>
   </div>

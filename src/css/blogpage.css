@@ -15,4 +15,39 @@
 .content_box .blogpage {
   margin: 50px 0 0 0;
 }
+
+.article {
+  margin: 100px 0 0 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.article h1, .article h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+  font-size: 3em;
+  color: #38ef7d;
+  line-height: 40px;
+}
+
+.article h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 0;
+  color: lightskyblue;
+  margin: 35px 0 0 0;
+}
+
+.article .article_content p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
+
+#article_soc {
+  margin: 15px;
+}
 /*# sourceMappingURL=blogpage.css.map */

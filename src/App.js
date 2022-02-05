@@ -8,6 +8,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Article from './pages/Article';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/blog/art' element={<Article/>} />
       </Routes>
     </BrowserRouter>
     </div>
