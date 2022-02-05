@@ -1,6 +1,6 @@
 import '../css/blogsect.css';
 import Blogpost from './Blogpost';
-
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 function BlogSection() {
   return (
@@ -9,6 +9,12 @@ function BlogSection() {
         <Blogpost />
         <Blogpost />
         <Blogpost />
+      <div className='blog_link'>
+          <div className='blog_link_btn'>
+            <MailOutlineIcon />
+            <p>Read more articles</p>
+          </div>
+      </div>
     </div>
   );
 }

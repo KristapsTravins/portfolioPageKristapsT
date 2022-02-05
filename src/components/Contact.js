@@ -6,13 +6,13 @@ function Contact() {
   return (
     <footer>
        <h5> Hey, let’s keep in touch</h5>
-       <div className='email_btn'>
+       <div className='_btn'>
            <div className='inner_btn_email'>
             <MailOutlineIcon />
             <p>Email</p>
            </div>
        </div>
-       <div className='email_btn'>
+       <div className='_btn'>
            <div className='inner_btn_email'>
             <CoffeeIcon />
             <p>Buy me a coffe</p>

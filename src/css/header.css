@@ -71,6 +71,7 @@
   font-size: 5vw;
   font-weight: 200;
   margin: 10px 0 0 0;
+  cursor: pointer;
 }
 
 .header_main .header_inner .menu_section nav ul svg {

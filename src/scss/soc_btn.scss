@@ -9,23 +9,24 @@
     width: 92%;
     flex-direction: column;
     height: auto;
+   
 
     .soc_btn{
         width: 100%;
+        cursor: pointer;
         height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: $title-background-col;
         margin: 5px;
-        
+        border: 1px solid #38ef7d;
         .inner_soc{
-            width: 98.7%;
-            height: 89.5%;
+            width: 100%;
+            height: 100%;
             background-color: $base-col;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center;    
             svg{
                 color: white;
                 margin: 0 10px 0 0;
@@ -39,6 +40,9 @@
     }
   
 }
+.inner_soc:hover{
+    box-shadow: $base-col 0px 30px 60px -12px inset,#4fcc7f  0px 18px 36px -18px inset;
+}
 
 @media only screen and (min-width: 660px) {
     .soc_buttons{
@@ -50,6 +54,7 @@
         .soc_btn{
             width: 250px;
             height: 50px;
+            
         }
         
     }

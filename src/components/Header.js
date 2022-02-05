@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/header.css';
-import LightModeIcon from '@mui/icons-material/LightMode';
+
 
 
 const Header =()=> {
@@ -10,10 +10,9 @@ const Header =()=> {
                 <div className='menu_section'>
                     <nav>
                         <ul>
-                            <li>Projects</li>
-                            <li>Resume</li>
-                            <li>Contact</li>
-                            <li><LightModeIcon /></li>
+                            <li>Home</li>
+                            <li>Rrojects</li>
+                            <li>Blog</li>
                         </ul>
                     </nav>
                 </div>

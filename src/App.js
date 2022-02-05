@@ -1,20 +1,16 @@
-import BlogSection from './components/BlogSection';
-import Header from './components/Header';
-import Projects from './components/Projects';
-import Title from './components/Title';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import Blog from './pages/Home';
 import './css/main.css';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <div className='center_wrapp'>
-        <Header />
-        <Title  />
-        <Projects />
-        <BlogSection />
-        <Contact />
-      </div>
+     <Home />
     </div>
   );
 }
