@@ -1,0 +1,12 @@
+@import './mixins.scss';
+ 
+.content_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    .blogpage{
+        margin: 50px 0 0 0;
+    }
+}
+

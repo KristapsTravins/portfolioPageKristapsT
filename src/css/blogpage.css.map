@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,mFAAI;AACZ,OAAO,CAAC,qFAAI;ADCZ,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,IAAI;CAIf;;AARD,AAKI,YALQ,CAKR,SAAS,CAAA;EACL,MAAM,EAAE,UAAU;CACrB",
+    "sources": [
+        "../scss/blogpage.scss",
+        "../scss/mixins.scss"
+    ],
+    "names": [],
+    "file": "blogpage.css"
+}

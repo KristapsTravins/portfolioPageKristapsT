@@ -35,6 +35,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding: 0 10px 0 0;
 }
 
 .header_main .header_inner .menu_section nav {
@@ -63,6 +64,7 @@
           align-items: center;
   list-style: none;
   width: 100%;
+  margin: 0 15px 0 0;
 }
 
 .header_main .header_inner .menu_section nav ul li {
@@ -95,7 +97,7 @@
   }
   .header_main .header_inner .menu_section nav ul {
     width: auto;
-    margin: 0 10px 0 0;
+    margin: 0 0 0 0;
   }
   .header_main .header_inner .menu_section nav ul li {
     font-size: 18px;

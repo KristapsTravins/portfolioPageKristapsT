@@ -1,4 +1,4 @@
-import '../css/blogsect.css';
+
 import Blogpost from './Blogpost';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
