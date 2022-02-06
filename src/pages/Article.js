@@ -20,10 +20,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                 </div>
             </div>
             <div className='soc_buttons' id='article_soc'>
-            <SocButton icon={<LinkedInIcon />} name={""} />
-            <SocButton icon={<LinkedInIcon />} name={""} />
-            <SocButton icon={<LinkedInIcon />} name={""} />
-            <SocButton icon={<LinkedInIcon />} name={""} />
+            <SocButton icon={<LinkedInIcon />} name={"Go back"} />
             </div>
     </div>
   );

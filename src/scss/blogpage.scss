@@ -13,7 +13,7 @@
      margin: 100px 0 0 0;
      width: 100%;
      padding: 10px;
-     h1, h5{
+     h1{
          @include text_style;
          margin: 0 0 20px 0;
          font-size: 3em;
@@ -25,20 +25,15 @@
         font-weight: 100;
         font-size: 16px;
         line-height: 0;
-        color: lightskyblue;
-        margin: 35px 0 0 0;
+        margin: 10px 0 0 0;
     }
     .article_content{
         p{
             @include text_style;
-            font-size: 1.2em;
+            font-size: 1.5em;
         }
     }
 
  }
- #article_soc{
-     margin: 15px;
-     
- }
- 
+
 

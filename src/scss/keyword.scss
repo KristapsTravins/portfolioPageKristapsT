@@ -1,0 +1,9 @@
+@import './mixins.scss';
+
+.description_box{
+    p{
+        span{
+            @include header_style;
+        }
+    }
+}
