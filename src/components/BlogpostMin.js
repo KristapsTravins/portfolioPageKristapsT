@@ -2,7 +2,7 @@ import '../css/blogpost_min.css';
 import LinkIcon from '@mui/icons-material/Link';
 import SocButton from './buttons/SocButton';
 
- const Blogpost_min =()=> {
+ const BlogpostMin =()=> {
   return (
     <div className='blog_post'>
         <div className='blog_title'>
@@ -22,4 +22,4 @@ import SocButton from './buttons/SocButton';
   );
 }
 
-export default Blogpost_min;
+export default BlogpostMin;

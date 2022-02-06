@@ -1,12 +1,17 @@
-import Blogpost_min from './Blogpost_min';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import BlogpostMin from './BlogpostMin';
+import LinkIcon from '@mui/icons-material/Link';
+import SocButton from './buttons/SocButton';
 
 function BlogSection() {
   return (
     <div className="blog_section">
-      <Blogpost_min />
-      <Blogpost_min />
-      <Blogpost_min />
+      <BlogpostMin />
+      <BlogpostMin />
+      <div className='blog_btn'>
+        <div>
+          <SocButton icon={<LinkIcon />}  name={"See other posts"}  />
+        </div>
+      </div>
     </div>
   );
 }

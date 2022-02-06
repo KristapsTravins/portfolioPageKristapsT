@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Blogpost_min from '../components/Blogpost_min';
+import BlogpostMin from '../components/BlogpostMin';
 const Blog = ()=> {
   return (
     <div className='center_wrapp'>
