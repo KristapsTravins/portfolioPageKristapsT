@@ -7,7 +7,10 @@ const Blog = ()=> {
         <div className='content_box'>
            <div className='blog_section blogpage'>
            <h5>BLOG </h5>
-              
+              <BlogpostMin />
+              <BlogpostMin />
+              <BlogpostMin />
+              <BlogpostMin />
            </div>
         </div>
   </div>

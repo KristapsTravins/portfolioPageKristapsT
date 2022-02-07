@@ -25,6 +25,40 @@ footer h5 {
   margin: 30px 0 25px 6px;
 }
 
+footer .contact_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .contact_box .contact_img {
+  width: 100%;
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .contact_box .contact_buttons {
+  background: gray;
+  width: 300px;
+  height: 280px;
+}
+
 @media only screen and (min-width: 944px) {
   footer {
     border-top: 1px solid white;

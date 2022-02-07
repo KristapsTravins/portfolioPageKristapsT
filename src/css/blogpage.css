@@ -16,6 +16,13 @@
   margin: 50px 0 0 0;
 }
 
+.content_box .blogpage h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 200;
+}
+
 .article {
   margin: 100px 0 0 0;
   width: 100%;
@@ -44,5 +51,12 @@
   font-family: 'Source Sans Pro', sans-serif;
   color: #FFFFFF;
   font-size: 1.5em;
+}
+
+.article .article_content h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  color: #38ef7d;
+  font-size: 2em;
 }
 /*# sourceMappingURL=blogpage.css.map */

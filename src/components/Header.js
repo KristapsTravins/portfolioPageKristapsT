@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/header.css';
-
+import {
+    Link
+  } from "react-router-dom";
+  
 
 
 const Header =()=> {
@@ -10,9 +13,9 @@ const Header =()=> {
                 <div className='menu_section'>
                     <nav>
                         <ul>
-                            <li>Home</li>
-                            <li>Rrojects</li>
-                            <li>Blog</li>
+                            <Link to='/'><li>Home</li></Link>
+                            <a href="/#projects"><li>Projects</li></a>
+                            <Link to='/blog'><li>Blog</li></Link>
                         </ul>
                     </nav>
                 </div>

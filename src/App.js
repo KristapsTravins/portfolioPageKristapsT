@@ -6,7 +6,7 @@ import './css/blogsect.css';
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
 import Article from './pages/Article';
 

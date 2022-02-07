@@ -13,7 +13,26 @@ footer{
        font-weight: 100;
        margin: 30px 0 25px 6px;
    }
-  
+  .contact_box{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .contact_img{
+     
+          width: 100%;
+          margin: 10px 0 0 0;
+          display: flex;
+          justify-content: center
+         
+      }
+      .contact_buttons{
+        background: gray;
+        width: 300px;
+        height: 280px;
+    }
+  }
 }
 
 @media only screen and (min-width: 944px) {
