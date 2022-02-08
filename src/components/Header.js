@@ -13,9 +13,9 @@ const Header =()=> {
                 <div className='menu_section'>
                     <nav>
                         <ul>
-                            <Link to='/'><li>Home</li></Link>
-                            <a href="/#projects"><li>Projects</li></a>
-                            <Link to='/blog'><li>Blog</li></Link>
+                            <li><Link to='/'>Home</Link></li>
+                           <li> <a href="/#projects">Projects</a></li>
+                            <li><Link to='/blog'>Blog</Link></li>
                         </ul>
                     </nav>
                 </div>

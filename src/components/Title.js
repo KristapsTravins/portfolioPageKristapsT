@@ -3,7 +3,6 @@ import '../css/soc_btn.css';
 import '../css/keyword.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SocButton from './buttons/SocButton';
 
 
@@ -18,9 +17,9 @@ import SocButton from './buttons/SocButton';
         </div>
         <div className='soc_buttons'>
 
-        <SocButton icon={<MailOutlineIcon />} name={"My resume"} />
-        <a href="https://github.com/KristapsTravins" target="_blank"><SocButton icon={<GitHubIcon />} name={"Github"} /></a>
-        <a href="https://www.linkedin.com/in/kristaps-travi%C5%86%C5%A1-40a30319b/" target="_blank" ><SocButton icon={<LinkedInIcon />} name={"LinkedIn"} /></a>
+       
+        <a href="https://github.com/KristapsTravins" rel="noreferrer" target="_blank"><SocButton icon={<GitHubIcon />} name={"Github"} /></a>
+        <a href="https://www.linkedin.com/in/kristaps-travi%C5%86%C5%A1-40a30319b/" rel="noreferrer" target="_blank" ><SocButton icon={<LinkedInIcon />} name={"LinkedIn"} /></a>
         </div>
     </div>
   </div>
