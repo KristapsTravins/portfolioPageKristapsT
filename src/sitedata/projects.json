@@ -1,0 +1,11 @@
+[
+  {
+    "image-link":"https://www.linkpicture.com/q/hangman.png",
+    "name":"Word guessing game",
+    "technologies":["HTML"," / ","SCSS"," / ","JS"," / ","ReactJS"],
+    "description":"This project is traditional word guessing game Hangman,where player needs to guess correct word.",
+    "git":"https://github.com/KristapsTravins/hangManLv",
+    "link":"https://github.com/KristapsTravins/hangManLv"
+
+  }  
+]

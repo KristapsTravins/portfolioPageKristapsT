@@ -20,7 +20,7 @@
         flex-wrap: wrap;
         .project_card{
             
-            max-width: 300px;
+            max-width: 308px;
             height: 538px;
             margin: 5px;
          
@@ -28,7 +28,12 @@
         .card_img{
             width: 100%;
             height: 237px;
-            background: $title-background-col;
+            background: #706e6e42;
+            justify-content: center;
+            img{
+                width: 80%
+            }
+            
         }
         h4{
             @include text_style;
@@ -85,14 +90,56 @@
 .link_btn:hover .inner_link{
     box-shadow: $base-col 0px 30px 60px -12px inset,#4fcc7f  0px 18px 36px -18px inset;
 }
-@media only screen and (min-width: 944px) {
+@media only screen and (max-width: 435px) {
+    .project_box{
+       
+        .card_box{
+          
+            .project_card{
+              min-width: 95%;
+            }
+            
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 435px) {
+    .project_box{
+       
+        .card_box{
+          
+            .project_card{
+              max-width: 90%;
+            }
+            
+        }
+    }
+    
+}
+@media only screen and (max-width: 633px) {
+    .project_box{
+       
+        .card_box{
+          
+            .project_card{
+              max-width: 50%;
+              min-width: 308px;
+            }
+            
+        }
+    }
+    
+}
+@media only screen and (min-width: 966px) {
     .project_box{
         border-top: none;
         border-top: 0.1px solid white;
         .card_box{
             height: auto;
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
             .project_card{
                 margin: 0 7px 0 7px;
             }

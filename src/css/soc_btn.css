@@ -15,8 +15,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 5px;
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
+  background: linear-gradient(68.4deg, #63fbd7 -0.4%, #05defa 100.2%);
   padding: 1px;
 }
 
@@ -47,8 +46,8 @@
 }
 
 .inner_soc:hover {
-  -webkit-box-shadow: #201F1F 0px 30px 60px -12px inset, #4fcc7f 0px 18px 36px -18px inset;
-          box-shadow: #201F1F 0px 30px 60px -12px inset, #4fcc7f 0px 18px 36px -18px inset;
+  -webkit-box-shadow: #201F1F 0px 30px 60px -12px inset, #3d71c0 0px 18px 36px -18px inset;
+          box-shadow: #201F1F 0px 30px 60px -12px inset, #3d71c0 0px 18px 36px -18px inset;
 }
 
 @media only screen and (min-width: 660px) {

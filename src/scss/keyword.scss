@@ -3,7 +3,9 @@
 .description_box{
     p{
         span{
-            @include header_style;
+            @include span_style;
+            font-size: 1.7em;
+            letter-spacing: 3px;
         }
     }
 }

@@ -1,19 +1,23 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 import SocButton from './buttons/SocButton';
-const ProjectCard =()=> {
+const ProjectCard =(props)=> {
+ 
   return (
     <div className='project_card'>
-              <div className='card_img'>
+              <div className='card_img' style={{"display":"flex"}}>
+                <img src={props.img} alt={props.name} />
               </div>
-              <h4>Car Game </h4>
-              <p>Proxy provider website including authentication, dashboard and dynamic features</p>
+              <h4>{props.name}</h4>
+              <p>{props.description}</p>
               <div className='tech_list'>
-                  <p>React / CSS / html</p>
+                  <p>{props.technologies.join('')}</p>
               </div>
               <div className='btn_place'>
-              <SocButton icon={<LinkIcon />} name={"View"} />
-              <SocButton icon={<GitHubIcon />} name={"Github"} />
+              <SocButton  icon={<LinkIcon />} name={"View"} />
+              <SocButton link={props.git} icon={<GitHubIcon />} name={"Github"} />
+             
+             
               
               </div>
  </div>

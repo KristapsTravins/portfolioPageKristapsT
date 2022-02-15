@@ -1,7 +1,7 @@
 
 const SocButton =(props)=> {
   return (
-    <div className="soc_btn">
+    <div onClick={()=>props.link.length!==0?window.open(props.link):<></>}className="soc_btn">
         <div className="inner_soc"> 
             {props.icon}
             <p>{props.name}</p>
