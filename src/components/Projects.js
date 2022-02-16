@@ -9,15 +9,11 @@ const Projects =()=> {
       <h3>PROJECTS</h3>
       <div className='card_box'>
         {data.map(i=>{
+        
           return(
-            <ProjectCard img={i['image-link']} nama={i.name}  description={i.description} technologies={i.technologies} git={i.git} />
+            <ProjectCard img={i['image-link']} name={i.name}  description={i.description} technologies={i.technologies} git={i.git} link={i.link} />
           )
         })}
-
-            {/* <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard /> */}
       </div>
   </div>
   );

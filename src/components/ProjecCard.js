@@ -5,8 +5,8 @@ const ProjectCard =(props)=> {
  
   return (
     <div className='project_card'>
-              <div className='card_img' style={{"display":"flex"}}>
-                <img src={props.img} alt={props.name} />
+              <div className='card_img' style={{backgroundImage:`url(${props.img})`, backgroundSize:'cover', overflow:"hidden"}}>
+               
               </div>
               <h4>{props.name}</h4>
               <p>{props.description}</p>
@@ -14,7 +14,7 @@ const ProjectCard =(props)=> {
                   <p>{props.technologies.join('')}</p>
               </div>
               <div className='btn_place'>
-              <SocButton  icon={<LinkIcon />} name={"View"} />
+              <SocButton link={props.link}  icon={<LinkIcon />} name={"View"} />
               <SocButton link={props.git} icon={<GitHubIcon />} name={"Github"} />
              
              

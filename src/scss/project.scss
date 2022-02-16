@@ -46,17 +46,18 @@
         }
         .tech_list{
             p{
-                @include header_style;
+                color: #57ff00;
               
                 margin: 0 0 20px 0;
             }
         }
         .btn_place{
-            width: 100%;
+            width: auto;
             display: flex;
             justify-content: space-between;
             flex-direction: row;
             height: auto;
+            margin: 0 0 0 -9px;
             .link_btn{
                 margin: 0px 0px 0 0;
                 background: $title-background-col;

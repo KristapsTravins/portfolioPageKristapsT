@@ -15,7 +15,7 @@ const Header =()=> {
                         <ul>
                             <li><Link to='/'>Home</Link></li>
                            <li> <a href="/#projects">Projects</a></li>
-                            <li><Link to='/blog'>Blog</Link></li>
+                         
                         </ul>
                     </nav>
                 </div>

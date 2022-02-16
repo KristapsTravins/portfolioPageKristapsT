@@ -10,7 +10,6 @@ const Home =() => {
     <Header />
     <Title  />
     <Projects />
-    <BlogSection />
     <Contact />
   </div>
   );
