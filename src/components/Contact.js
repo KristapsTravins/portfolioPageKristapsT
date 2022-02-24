@@ -14,7 +14,7 @@ function Contact() {
           </div>
           <div className='contact_img'>
             <SocButton icon={<MailOutlineIcon />}  name={"Contact Me"}/>
-            <SocButton icon={<CoffeeIcon />}  name={"Buy me a  coffe "} />
+            <SocButton link='https://www.buymeacoffee.com/kristapt' icon={<CoffeeIcon />}  name={"Buy me a  coffe "} />
           </div>
         </div>
     </footer>

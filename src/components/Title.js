@@ -13,7 +13,7 @@ import SocButton from './buttons/SocButton';
             <h1>Hello , I'm</h1>
             <h2>Kristaps Traviņš</h2>
         <div className='description_box'>
-            <p>I am a self taught <span>Front-end</span>  and talanted <span>Google</span> user, based in Riga, Latvia.I enjoy building things with <span>React</span> that live on the internet.</p>
+            <p>I am a self taught <span>Front-end</span>  and talanted <span>Google</span> user, based in Riga, Latvia. I enjoy building things with <span>React</span> that live on the internet.</p>
         </div>
         <div className='soc_buttons'>
 

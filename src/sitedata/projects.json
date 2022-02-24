@@ -1,11 +1,20 @@
 [
   {
+    "image-link":"https://www.linkpicture.com/q/Sub.png",
+    "name":"Subscription Website",
+    "technologies":["HTML"," / ","SCSS"," / ","ReactJS"," / ","Express.js"," / ","Mysql"],
+    "description":"This project is simple subscription website, you can add your email to list and manage list at ( .../admin ) page .",
+    "git":"https://github.com/KristapsTravins/subscription-system",
+    "link":"http://159.223.20.30/"
+
+  },
+  {
     "image-link":"https://www.linkpicture.com/q/Store.png",
     "name":"Online Store",
     "technologies":["HTML"," / ","CSS"," / ","JS"," / ","ReactJS"," / ","GraphQL"," / ","Redux"],
     "description":"Sample of of online store with cart and product selection features built with React. User can add remove products from cart ",
     "git":"https://github.com/KristapsTravins/Scandiweb_Junior_Developer_test",
-    "link":"http://164.92.200.100/"
+    "link":"http://64.227.113.244/"
 
   },
   {
