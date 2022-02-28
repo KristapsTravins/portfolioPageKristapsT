@@ -54,9 +54,9 @@ footer .contact_box .contact_img {
 }
 
 footer .contact_box .contact_buttons {
-  background: gray;
+  background: #201F1F;
   width: 300px;
-  height: 280px;
+  height: auto;
 }
 
 @media only screen and (min-width: 944px) {
