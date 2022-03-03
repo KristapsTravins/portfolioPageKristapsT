@@ -3,7 +3,7 @@ import ProjectCard from './ProjecCard';
 import data from '../sitedata/projects.json';
 
 const Projects =()=> {
-  console.log(data)
+
   return (
   <div className='project_box' id='projects'>
       <h3>PROJECTS</h3>
@@ -11,7 +11,7 @@ const Projects =()=> {
         {data.map(i=>{
         
           return(
-            <ProjectCard img={i['image-link']} name={i.name}  description={i.description} technologies={i.technologies} git={i.git} link={i.link} />
+            <ProjectCard key={i.name} img={i['image-link']} name={i.name}  description={i.description} technologies={i.technologies} git={i.git} link={i.link} />
           )
         })}
       </div>

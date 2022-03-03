@@ -13,7 +13,7 @@ function Contact() {
             
           </div>
           <div className='contact_img'>
-            <SocButton link="mailto:travinskristaps@gmail.com?subject=Me&body=Hello!"icon={<MailOutlineIcon />}  name={"kristaptravins@gmail.com"}/>
+            <SocButton link={'mailto:travinskristaps@gmail.com?subject=Me&body=Hello!'} icon={<MailOutlineIcon />}  name={"kristaptravins@gmail.com"}/>
             <SocButton link='https://www.buymeacoffee.com/kristapt' icon={<CoffeeIcon />}  name={"Buy me a  coffe "} />
           </div>
         </div>
